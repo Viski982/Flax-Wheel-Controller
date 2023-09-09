@@ -30,8 +30,8 @@ public class WheelDataController : Script
         veh = Actor.As<WheeledVehicle>();
     }
 
-    // You can put inside OnUpdate() if you want so you can change the values at runtime :D
 
+    // You can put it inside OnUpdate() if you want so you can change the values at runtime :D
     public override void OnStart()
     {
         for (int i = 0; i < veh.Wheels.Length; i++)
