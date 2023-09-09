@@ -1,5 +1,7 @@
 ﻿using FlaxEngine;
 
+// Don't forget to add your namespace
+
 public class WheelDataController : Script
 {
     private WheeledVehicle veh;
